@@ -21,11 +21,20 @@ export default function Header({ onReserveClick }) {
             .desktop-social {
               display: none !important;
             }
+            .site-header {
+              padding: 14px 12px !important;
+            }
+            .site-logo {
+              margin-left: 0 !important;
+              height: 38px !important;
+              display: block !important;
+            }
           }
         `}
       </style>
 
       <header
+        className="site-header"
         style={{
           backgroundColor: "black",
           color: "white",
@@ -42,9 +51,10 @@ export default function Header({ onReserveClick }) {
         <div style={{ flex: "0 0 auto" }}>
           <Link to="/">
             <img
+              className="site-logo"
               src="/Photos/logo.svg"
               alt="Velvet Tide Restaurant Logo"
-              style={{ height: "45px", width: "auto", marginLeft: "25px" }}
+              style={{ height: "45px", width: "auto", marginLeft: 0, display: "block" }}
             />
           </Link>
         </div>
@@ -427,4 +437,3 @@ export default function Header({ onReserveClick }) {
     </>
   );
 }
-
