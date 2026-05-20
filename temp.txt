@@ -1,0 +1,30 @@
+                            {String(rowNumber).padStart(2, "0")}
+                          </div>
+                          <div>
+                            <div
+                              style={{
+                                ...dishPrimaryTextStyle,
+                                marginBottom: "4px",
+                              }}
+                            >
+                              {formatDishName(item.name)}
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "0.75rem",
+                                color: adminTheme.palette.textMuted,
+                                lineHeight: 1.4,
+                              }}
+                            >
+                              {item.description && item.description.trim()
+                                ? item.description.length > 120
+                                  ? `${item.description.slice(0, 120)}�`
+                                  : item.description
+                                : "No description provided."}
+                            </div>
+                          </div>
+                          <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                            <span
+                              style={dishPrimaryTextStyle}
+                            >
+                              {item.category || "-"}
