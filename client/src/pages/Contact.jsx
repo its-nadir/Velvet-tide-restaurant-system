@@ -63,7 +63,7 @@ const Contact = () => {
           alignItems: "center",
           justifyContent: "center",
           overflow: "hidden",
-          backgroundImage: "url('../../public/photos/img4.jpg')",
+          backgroundImage: "url('/Photos/img4.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
