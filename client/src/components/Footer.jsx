@@ -302,7 +302,7 @@ export default function Footer() {
             fontFamily: "'Lato', sans-serif",
           }}
         >
-          © 2025 Velvet Tide Restaurant. All rights reserved
+          © 2026 Velvet Tide Restaurant. All rights reserved
         </p>
       </div>
     </footer>
