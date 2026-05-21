@@ -1,5 +1,8 @@
 # Velvet Tide Restaurant - Full Stack Web Application
 
+## Live Website
+
+You can view the deployed Velvet Tide Restaurant Management System here:  https://velvet-tide-restaurant-system.vercel.app/
 ## Table of Contents
 1. [Project Title](#1-project-title)
 2. [Proposed Tools](#2-proposed-tools)
